@@ -41,9 +41,9 @@ def handle_message(event): #event:消費者傳的訊息
     msg = event.message.text
     r = '很抱歉您說什麼'
 
-    if msg == 'hi'
+    if msg == 'hi':
         r = 'hi'
-    elif msg == '你吃飯了嗎'
+    elif msg == '你吃飯了嗎':
         r = '還沒~'
 
 
