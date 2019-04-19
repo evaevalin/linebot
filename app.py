@@ -38,9 +38,11 @@ def callback():#接收line收訊息後 觸發程式碼 完全不需改
 
 @handler.add(MessageEvent, message=TextMessage) #之後run到這個
 def handle_message(event): #event:消費者傳的訊息
+    msg = event.message.text
+    s = '你吃飯了嗎'
     line_bot_api.reply_message(
         event.reply_token, #我們的token 只有我們能回復
-        TextSendMessage(text=event.message.text))
+        TextSendMessage(text=s))
 
 
 if __name__ == "__main__":  #直接被執行 別人寫入 才會開始run
