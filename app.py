@@ -13,7 +13,7 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('G5io7PcjeFo1M8Bluxm9kRG2cTRoQzUjdM8kfbn//tc3IVML/6z/X+NEu3f4dGUkCUKGtCrZGPi3H51dLRFdu11baUCWXw53+tGqQ2Do8QZ0TUiwPWg41fQrlbKU56Oqde8EbJEXjlH/Xnil8wZScwdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('eDWxVWjfCghFVGeT8uMtTu9ZwxCK2VJhX5w8Pro8fNcb94nupk/knuuL0pFmahqyCUKGtCrZGPi3H51dLRFdu11baUCWXw53+tGqQ2Do8QZ95KP6E4PqaOgWsJawwLTdnBRBx7tsspoZknFKVQ/XGAdB04t89/1O/w1cDnyilFU=')
 handler = WebhookHandler('f7fcfcb81547c7b483b1503667eced8c')
 
 #假設我們有www.line.bot.com(callback)有人來我們網址路徑敲門(發送訊號) 就會觸發以下
