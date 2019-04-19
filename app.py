@@ -56,12 +56,10 @@ def handle_message(event): #event:消費者傳的訊息
             sticker_id='1'
     )
 
-         line_bot_api.reply_message(
+        line_bot_api.reply_message(
         event.reply_token,
-        StickerSendMessage(
-            package_id='1',
-            sticker_id='1'
-    ))
+        sticker_message)
+        return
 
 
     line_bot_api.reply_message(
